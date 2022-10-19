@@ -1,11 +1,12 @@
 #include "main.h"
+#int print_sign(int n)
 
 /**
-*print_sign - print the sign of a num
-*@n: the num to be checked for
-*Returns: Always 1 and prints + if n is greater than zero
-*0 and prints 0 if n is zero
-*-1 and prints - if n is less than zero
+* print_sign - print the sign of a num
+* @n: the num to be checked for
+* Return: Always 1 and prints + if n is greater than zero
+* 0 and prints 0 if n is zero
+* -1 and prints - if n is less than zero
 */
 
 int print_sign(int n)
