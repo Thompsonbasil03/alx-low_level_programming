@@ -9,17 +9,9 @@ int main(void)
 {
 int i;
 
+i = 98;
 
-printf("Infinite loop incoming :('\n');
-
-i = 0;
-
-/* while (i < 10)*/
-/* {*/
-/* putchar(i);*/
-/* }*/
-
-printf("Infinite loop avoided !\\o('\n');
+printf("positive_or_negative:('\n'};
 
 return (0);
 }
