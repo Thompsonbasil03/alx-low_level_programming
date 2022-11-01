@@ -1,24 +1,22 @@
 #include "main.h"
-#include <stddef.h>
 
 /**
-* _strchr -> touches a character
-* @s: string given to look thru
-* @c: another character we look for
-* Return: a pointer to the char or NULL
+* _strchr -> string character
+* @s: string given
+* @c: another char
+* Return: a string
 */
 car *_strchr(char *s, char c)
 {
-if (s == NULL)
-return (NULL);
-for (; *s; s++)
+int a = 0, b;
+
+while (s[a])
+a++;
+for (b = 0; b < a; b++)
 {
-if (*s == c)
+if (c == s[b])
+s += b;
 return (s);
 }
-if (*s == c)
-{
-return (s);
-}
-return (NULL);
+return ('\0');
 }
