@@ -6,7 +6,7 @@
 * @c: another char
 * Return: a string
 */
-car *_strchr(char *s, char c)
+char *_strchr(char *s, char c)
 {
 int a = 0, b;
 
